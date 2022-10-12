@@ -1,0 +1,203 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+<rect fill="transparent" height="600" stroke="rgb(0,0,0)" stroke-width="1" width="600" x="0" y="0"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="300" y="0"/>
+<path d="M300,0 L300,0" fill="transparent" stroke="rgb(44,57,55)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="300" y="0"/>
+<path d="M300,0 L300,50" fill="transparent" stroke="rgb(24,75,63)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="300" y="50"/>
+<path d="M300,50 L150,100" fill="transparent" stroke="rgb(69,247,134)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="150" y="100"/>
+<path d="M150,100 L75,150" fill="transparent" stroke="rgb(241,143,41)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="75" y="150"/>
+<path d="M75,150 L37.5,200" fill="transparent" stroke="rgb(110,124,205)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="37.5" y="200"/>
+<path d="M37.5,200 L18.75,250" fill="transparent" stroke="rgb(60,72,228)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="18.75" y="250"/>
+<path d="M18.75,250 L9.375,300" fill="transparent" stroke="rgb(230,231,138)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="9.375" y="300"/>
+<path d="M9.375,300 L14.0625,350" fill="transparent" stroke="rgb(108,236,175)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="14.0625" y="350"/>
+<path d="M14.0625,350 L11.71875,400" fill="transparent" stroke="rgb(72,173,80)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="37.5" y="200"/>
+<path d="M37.5,200 L18.75,250" fill="transparent" stroke="rgb(100,86,11)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="18.75" y="250"/>
+<path d="M18.75,250 L28.125,300" fill="transparent" stroke="rgb(214,92,146)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="75" y="150"/>
+<path d="M75,150 L37.5,200" fill="transparent" stroke="rgb(49,147,117)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="37.5" y="200"/>
+<path d="M37.5,200 L56.25,250" fill="transparent" stroke="rgb(132,64,58)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="56.25" y="250"/>
+<path d="M56.25,250 L46.875,300" fill="transparent" stroke="rgb(160,65,56)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="46.875" y="300"/>
+<path d="M46.875,300 L42.1875,350" fill="transparent" stroke="rgb(155,171,17)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="46.875" y="300"/>
+<path d="M46.875,300 L42.1875,350" fill="transparent" stroke="rgb(185,143,28)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="37.5" y="200"/>
+<path d="M37.5,200 L56.25,250" fill="transparent" stroke="rgb(128,86,50)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="56.25" y="250"/>
+<path d="M56.25,250 L65.625,300" fill="transparent" stroke="rgb(137,31,211)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="150" y="100"/>
+<path d="M150,100 L75,150" fill="transparent" stroke="rgb(16,169,96)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="75" y="150"/>
+<path d="M75,150 L112.5,200" fill="transparent" stroke="rgb(177,70,253)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="112.5" y="200"/>
+<path d="M112.5,200 L93.75,250" fill="transparent" stroke="rgb(87,182,181)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="93.75" y="250"/>
+<path d="M93.75,250 L84.375,300" fill="transparent" stroke="rgb(245,163,54)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="112.5" y="200"/>
+<path d="M112.5,200 L93.75,250" fill="transparent" stroke="rgb(41,94,45)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="93.75" y="250"/>
+<path d="M93.75,250 L103.125,300" fill="transparent" stroke="rgb(2,233,170)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="300" y="50"/>
+<path d="M300,50 L150,100" fill="transparent" stroke="rgb(198,123,208)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="150" y="100"/>
+<path d="M150,100 L225,150" fill="transparent" stroke="rgb(151,75,51)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="225" y="150"/>
+<path d="M225,150 L187.5,200" fill="transparent" stroke="rgb(145,227,36)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="187.5" y="200"/>
+<path d="M187.5,200 L168.75,250" fill="transparent" stroke="rgb(91,221,204)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="225" y="150"/>
+<path d="M225,150 L187.5,200" fill="transparent" stroke="rgb(182,252,52)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="187.5" y="200"/>
+<path d="M187.5,200 L206.25,250" fill="transparent" stroke="rgb(231,254,54)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="187.5" y="200"/>
+<path d="M187.5,200 L206.25,250" fill="transparent" stroke="rgb(124,128,16)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="150" y="100"/>
+<path d="M150,100 L225,150" fill="transparent" stroke="rgb(110,182,103)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="225" y="150"/>
+<path d="M225,150 L262.5,200" fill="transparent" stroke="rgb(66,211,38)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="262.5" y="200"/>
+<path d="M262.5,200 L243.75,250" fill="transparent" stroke="rgb(142,194,77)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="243.75" y="250"/>
+<path d="M243.75,250 L234.375,300" fill="transparent" stroke="rgb(159,245,1)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="234.375" y="300"/>
+<path d="M234.375,300 L229.6875,350" fill="transparent" stroke="rgb(162,39,79)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="262.5" y="200"/>
+<path d="M262.5,200 L243.75,250" fill="transparent" stroke="rgb(11,73,61)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="243.75" y="250"/>
+<path d="M243.75,250 L253.125,300" fill="transparent" stroke="rgb(58,147,254)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="300" y="0"/>
+<path d="M300,0 L300,50" fill="transparent" stroke="rgb(154,207,116)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="300" y="50"/>
+<path d="M300,50 L450,100" fill="transparent" stroke="rgb(183,133,3)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="450" y="100"/>
+<path d="M450,100 L375,150" fill="transparent" stroke="rgb(191,16,169)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="375" y="150"/>
+<path d="M375,150 L337.5,200" fill="transparent" stroke="rgb(88,136,193)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="337.5" y="200"/>
+<path d="M337.5,200 L318.75,250" fill="transparent" stroke="rgb(90,189,116)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="318.75" y="250"/>
+<path d="M318.75,250 L309.375,300" fill="transparent" stroke="rgb(93,30,232)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="309.375" y="300"/>
+<path d="M309.375,300 L304.6875,350" fill="transparent" stroke="rgb(32,246,140)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="304.6875" y="350"/>
+<path d="M304.6875,350 L307.03125,400" fill="transparent" stroke="rgb(245,154,53)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="375" y="150"/>
+<path d="M375,150 L337.5,200" fill="transparent" stroke="rgb(113,109,35)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="337.5" y="200"/>
+<path d="M337.5,200 L356.25,250" fill="transparent" stroke="rgb(211,81,143)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="356.25" y="250"/>
+<path d="M356.25,250 L346.875,300" fill="transparent" stroke="rgb(28,126,237)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="346.875" y="300"/>
+<path d="M346.875,300 L342.1875,350" fill="transparent" stroke="rgb(134,45,101)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="342.1875" y="350"/>
+<path d="M342.1875,350 L339.84375,400" fill="transparent" stroke="rgb(40,133,147)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="342.1875" y="350"/>
+<path d="M342.1875,350 L339.84375,400" fill="transparent" stroke="rgb(31,164,195)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="339.84375" y="400"/>
+<path d="M339.84375,400 L341.01563,450" fill="transparent" stroke="rgb(207,247,180)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="341.01563" y="450"/>
+<path d="M341.01563,450 L340.4297,500" fill="transparent" stroke="rgb(72,168,145)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="339.84375" y="400"/>
+<path d="M339.84375,400 L341.01563,450" fill="transparent" stroke="rgb(22,215,29)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="346.875" y="300"/>
+<path d="M346.875,300 L342.1875,350" fill="transparent" stroke="rgb(27,113,204)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="342.1875" y="350"/>
+<path d="M342.1875,350 L344.53125,400" fill="transparent" stroke="rgb(239,168,193)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="344.53125" y="400"/>
+<path d="M344.53125,400 L343.35938,450" fill="transparent" stroke="rgb(251,212,159)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="356.25" y="250"/>
+<path d="M356.25,250 L346.875,300" fill="transparent" stroke="rgb(84,75,66)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="346.875" y="300"/>
+<path d="M346.875,300 L351.5625,350" fill="transparent" stroke="rgb(139,203,9)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="351.5625" y="350"/>
+<path d="M351.5625,350 L349.21875,400" fill="transparent" stroke="rgb(99,180,129)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="349.21875" y="400"/>
+<path d="M349.21875,400 L348.04688,450" fill="transparent" stroke="rgb(191,44,138)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="351.5625" y="350"/>
+<path d="M351.5625,350 L349.21875,400" fill="transparent" stroke="rgb(61,167,253)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="346.875" y="300"/>
+<path d="M346.875,300 L351.5625,350" fill="transparent" stroke="rgb(222,145,90)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="351.5625" y="350"/>
+<path d="M351.5625,350 L353.90625,400" fill="transparent" stroke="rgb(202,203,188)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="353.90625" y="400"/>
+<path d="M353.90625,400 L352.73438,450" fill="transparent" stroke="rgb(96,171,129)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="450" y="100"/>
+<path d="M450,100 L375,150" fill="transparent" stroke="rgb(198,114,109)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="375" y="150"/>
+<path d="M375,150 L412.5,200" fill="transparent" stroke="rgb(212,118,124)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="412.5" y="200"/>
+<path d="M412.5,200 L393.75,250" fill="transparent" stroke="rgb(216,101,132)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="393.75" y="250"/>
+<path d="M393.75,250 L403.125,300" fill="transparent" stroke="rgb(98,158,132)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="403.125" y="300"/>
+<path d="M403.125,300 L398.4375,350" fill="transparent" stroke="rgb(184,66,45)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="393.75" y="250"/>
+<path d="M393.75,250 L403.125,300" fill="transparent" stroke="rgb(55,208,13)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="403.125" y="300"/>
+<path d="M403.125,300 L407.8125,350" fill="transparent" stroke="rgb(34,190,155)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="375" y="150"/>
+<path d="M375,150 L412.5,200" fill="transparent" stroke="rgb(79,1,14)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="412.5" y="200"/>
+<path d="M412.5,200 L431.25,250" fill="transparent" stroke="rgb(104,32,228)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="431.25" y="250"/>
+<path d="M431.25,250 L421.875,300" fill="transparent" stroke="rgb(134,183,102)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="412.5" y="200"/>
+<path d="M412.5,200 L431.25,250" fill="transparent" stroke="rgb(118,19,223)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="431.25" y="250"/>
+<path d="M431.25,250 L440.625,300" fill="transparent" stroke="rgb(164,251,241)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="440.625" y="300"/>
+<path d="M440.625,300 L435.9375,350" fill="transparent" stroke="rgb(70,202,241)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="435.9375" y="350"/>
+<path d="M435.9375,350 L433.59375,400" fill="transparent" stroke="rgb(243,176,89)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="433.59375" y="400"/>
+<path d="M433.59375,400 L434.76563,450" fill="transparent" stroke="rgb(200,75,199)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="434.76563" y="450"/>
+<path d="M434.76563,450 L434.1797,500" fill="transparent" stroke="rgb(57,183,142)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="434.1797" y="500"/>
+<path d="M434.1797,500 L434.47266,550" fill="transparent" stroke="rgb(198,89,85)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="440.625" y="300"/>
+<path d="M440.625,300 L435.9375,350" fill="transparent" stroke="rgb(73,44,145)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="431.25" y="250"/>
+<path d="M431.25,250 L440.625,300" fill="transparent" stroke="rgb(126,229,11)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="440.625" y="300"/>
+<path d="M440.625,300 L445.3125,350" fill="transparent" stroke="rgb(187,249,103)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="445.3125" y="350"/>
+<path d="M445.3125,350 L447.65625,400" fill="transparent" stroke="rgb(0,171,246)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="447.65625" y="400"/>
+<path d="M447.65625,400 L446.48438,450" fill="transparent" stroke="rgb(128,226,224)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="446.48438" y="450"/>
+<path d="M446.48438,450 L445.89844,500" fill="transparent" stroke="rgb(227,80,219)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="447.65625" y="400"/>
+<path d="M447.65625,400 L446.48438,450" fill="transparent" stroke="rgb(134,169,203)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="300" y="50"/>
+<path d="M300,50 L450,100" fill="transparent" stroke="rgb(174,84,116)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="450" y="100"/>
+<path d="M450,100 L525,150" fill="transparent" stroke="rgb(86,77,21)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="525" y="150"/>
+<path d="M525,150 L487.5,200" fill="transparent" stroke="rgb(62,192,189)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="487.5" y="200"/>
+<path d="M487.5,200 L468.75,250" fill="transparent" stroke="rgb(127,51,38)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="525" y="150"/>
+<path d="M525,150 L487.5,200" fill="transparent" stroke="rgb(96,222,133)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="487.5" y="200"/>
+<path d="M487.5,200 L506.25,250" fill="transparent" stroke="rgb(68,75,47)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="506.25" y="250"/>
+<path d="M506.25,250 L515.625,300" fill="transparent" stroke="rgb(246,56,198)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="450" y="100"/>
+<path d="M450,100 L525,150" fill="transparent" stroke="rgb(124,23,44)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="525" y="150"/>
+<path d="M525,150 L562.5,200" fill="transparent" stroke="rgb(42,136,65)" stroke-width="1"/>
+<rect fill="transparent" height="1" stroke="rgb(0,0,0)" stroke-width="2" width="1" x="562.5" y="200"/>
+<path d="M562.5,200 L581.25,250" fill="transparent" stroke="rgb(71,47,122)" stroke-width="1"/>
+</svg>
