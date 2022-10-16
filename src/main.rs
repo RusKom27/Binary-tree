@@ -1,25 +1,31 @@
-mod canvas;
+#![windows_subsystem = "windows"]
+
+mod gui_app;
 mod binary_tree;
 
-use draw::{Canvas, Point};
+use druid::{AppLauncher, LocalizedString, Point, WindowDesc};
 use rand::random;
 
 use crate::binary_tree::BTree;
-use crate::canvas::CanvasHandle;
+use crate::gui_app::AppData;
 
 pub const STEP_LENGTH:i32 = 50;
-pub const WIDTH:u32 = 600;
-pub const HEIGHT:u32 = 600;
+pub const WIDTH:f64 = 600.;
+pub const HEIGHT:f64 = 600.;
 
-
-fn main() {
-    let mut tree = BTree::<usize>::new();
-    for _ in 0..100 {
-		tree.insert(random::<usize>(), 0, 0);
+#[tokio::main]
+async fn main() {
+    let mut tree = BTree::<i32>::new();
+    for _ in 0..10000 {
+        tree.insert(random::<i32>() % 500, 0, 0);
     }
-	let mut canvas = Canvas::new(WIDTH, HEIGHT);
-
-	canvas.draw_rect(Point::new(0.,0.), WIDTH, HEIGHT, 1);
-	tree.draw(&mut canvas, &Point::new((WIDTH / 2) as f32, 0.));
-	canvas.save_svg();
+	let window = WindowDesc::new(|| tree).title(
+        LocalizedString::new("Binary tree")
+    ).with_min_size((20.,30.));
+    AppLauncher::with_window(window)
+        .launch(AppData {
+            mouse_pressed: false,
+            start_move_point: Point::ZERO,
+        })
+        .expect("launch failed");
 }
