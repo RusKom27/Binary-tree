@@ -15,17 +15,13 @@ pub const HEIGHT:f64 = 600.;
 
 #[tokio::main]
 async fn main() {
-    let mut tree = BTree::<i32>::new();
-    for _ in 0..10000 {
-        tree.insert(random::<i32>() % 500, 0, 0);
+    let mut tree = BTree::<i128>::new();
+    for i in 0..100 {
+        tree.insert(random::<i128>() % 10000, 0, 0);
     }
-	let window = WindowDesc::new(|| tree).title(
-        LocalizedString::new("Binary tree")
-    ).with_min_size((20.,30.));
+	let window = WindowDesc::new(move || tree).title(
+        LocalizedString::new("Binary tree"));
     AppLauncher::with_window(window)
-        .launch(AppData {
-            mouse_pressed: false,
-            start_move_point: Point::ZERO,
-        })
+        .launch(AppData::default())
         .expect("launch failed");
 }

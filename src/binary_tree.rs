@@ -8,7 +8,7 @@ pub enum BTree<T: Display + Ord + Copy + Send> {
 	Leaf {
 		value: T,
 		position: Point,
-		level: usize,
+		level: u128,
 		left: Box<BTree<T>>,
 		right: Box<BTree<T>>,
 	},
@@ -20,7 +20,7 @@ impl<T: Display + Ord + Copy + Send> BTree<T> {
 		BTree::Empty
 	}
 
-	pub fn insert(&mut self, new_value: T, level: usize, index: usize) {
+	pub fn insert(&mut self, new_value: T, level: u128, index: u128) {
 		match self {
 			&mut BTree::Leaf {
 				ref value,

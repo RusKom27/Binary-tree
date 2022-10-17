@@ -19,20 +19,25 @@ impl<T: Display + Ord + Copy + Send> BTree<T> {
                 ref level,
                 ref mut left,
                 ref mut right } => {
+                if position.x < ctx.window().get_size().width + 200. &&
+                    position.y < ctx.window().get_size().height + 200. &&
+                    position.x > -200. &&
+                    position.y > -200.{
+                    layout.set_text(format!("{}", value));
+                    layout.set_font(FONT_DESC.clone().with_size((FONT_DESC.size - *level as f64).clamp(11., 24.)));
+                    layout.rebuild_if_needed(ctx.text(), env);
+                    ctx.with_save(|ctx| {
+                        layout.draw(ctx, (position.x - 20. + *level as f64, position.y));
+                    });
 
-                layout.set_text(format!("{}", value));
-                layout.set_font(FONT_DESC.clone().with_size((FONT_DESC.size - *level as f64).clamp(12., 24.)));
-                layout.rebuild_if_needed(ctx.text(), env);
-                ctx.with_save(|ctx| {
-                    layout.draw(ctx, (position.x - 20., position.y));
-                });
-
-                match parent_point {
-                    Some(parent_point) => {
-                        ctx.stroke(Line::new(parent_point.clone(), position.clone()), &Color::WHITE, 2.);
-                    },
-                    None => ()
+                    match parent_point {
+                        Some(parent_point) => {
+                            ctx.stroke(Line::new(parent_point.clone(), position.clone()), &Color::WHITE, 2.);
+                        },
+                        None => ()
+                    }
                 }
+
                 left.draw(ctx, env, layout, Some(&Point::new(position.x, position.y + 20.)));
                 right.draw(ctx, env,  layout, Some(&Point::new(position.x, position.y + 20.)));
             }
@@ -42,7 +47,7 @@ impl<T: Display + Ord + Copy + Send> BTree<T> {
         };
     }
 
-    pub fn calculate_position(&mut self, index: usize, level: usize) -> Point {
+    pub fn calculate_position(&mut self, index: u128, level: u128) -> Point {
         let mut i = index;
         let l = level;
         if (i + 2) % 2 == 0 {
@@ -62,8 +67,8 @@ impl<T: Display + Ord + Copy + Send> BTree<T> {
                 ref mut left,
                 ref mut right } => {
                 let diff = *position - origin;
-                position.x += diff.x / 4. * dir;
-                position.y += diff.y / 4. * dir;
+                position.x -= diff.x / 4. * dir;
+                position.y -= diff.y / 4. * dir;
                 left.zoom(dir, origin).await;
                 right.zoom(dir, origin).await;
             },
@@ -93,10 +98,9 @@ impl<T: Display + Ord + Copy + Send> BTree<T> {
     }
 }
 
-#[derive(Clone, Data)]
+#[derive(Clone, Data, Default)]
 pub struct AppData {
-    pub mouse_pressed: bool,
-    pub start_move_point: Point,
+    pub start_move_point: Option<Point>,
 }
 
 impl<T: Display + Ord + Copy + Send> Widget<AppData> for BTree<T> {
@@ -105,32 +109,29 @@ impl<T: Display + Ord + Copy + Send> Widget<AppData> for BTree<T> {
             Event::Wheel(event) => {
                 block_in_place(move || {
                     Handle::current().block_on(async move {
-                        self.zoom(-event.wheel_delta.y / 120., event.pos).await;
+                        self.zoom(f64::signum(event.wheel_delta.y), event.pos).await;
                     })
                 });
                 ctx.request_paint();
             },
             Event::MouseDown(event) => {
-                data.start_move_point = event.pos;
-                data.mouse_pressed = true;
+                data.start_move_point = Some(event.pos);
             },
-            Event::MouseUp(event) => {
-                data.start_move_point = Point::ZERO;
-                data.mouse_pressed = false;
+            Event::MouseUp(_event) => {
+                data.start_move_point = None;
             },
             Event::MouseMove(event) => {
-                if data.mouse_pressed {
-                    let start_point = data.start_move_point;
+                if data.start_move_point.is_some() {
+                    let start_point = data.start_move_point.unwrap();
                     block_in_place(move || {
                         Handle::current().block_on(async move {
                             self.move_tree((start_point - event.pos).to_point()).await;
                         });
 
                     });
-                    data.start_move_point = event.pos;
+                    data.start_move_point = Some(event.pos);
                     ctx.request_paint();
                 }
-
             },
             _ => {}
         }
